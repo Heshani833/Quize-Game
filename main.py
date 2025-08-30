@@ -19,3 +19,8 @@ options = [
 
 ]
 
+for question_num in range(len(Questions_List)) : # 0 1 2 3 4
+    print("************************")
+    print(Questions_List[question_num]["text"])
+    for i in options[question_num] :
+        print(i)
