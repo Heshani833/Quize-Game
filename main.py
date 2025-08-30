@@ -41,3 +41,8 @@ for question_num in range(len(Questions_List)) : # 0 1 2 3 4
     else:
         print("Incorrect!")
         print(f"The correct answer is {Questions_List[question_num]['answer']}")
+
+print("************************")
+print(f"You have given {score} correct answers.")
+print(f"Your score is {score / len(Questions_List) * 100}%")
+print("Thank you for playing the Quiz Game!")
